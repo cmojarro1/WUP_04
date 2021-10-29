@@ -39,6 +39,9 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 mydata<-read.csv(file="GSScsv.csv")
 ```
 
+```{r}
+plot(WORDSUM~DEGREE,data=mydata)
+```
 
 
 ### Numerical Descriptive Results
