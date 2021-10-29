@@ -43,6 +43,12 @@ mydata<-read.csv(file="GSScsv.csv")
 plot(WORDSUM~DEGREE,data=mydata)
 ```
 
+The middle box and the far right box can go underneath the box to the left 
+labeled "graduate". The mean from the two sets are different from one another.
+Therefor if you run any test with the two boxes the one in the middle as well 
+as the one on the far right. The values for WORDSUM test are at a lower value 
+than the boxes Bachelor and Graduate as well as junior college.
+
 
 ### Numerical Descriptive Results
 
