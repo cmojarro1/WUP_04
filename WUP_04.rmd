@@ -87,3 +87,12 @@ that LThigh school graduate and high school graduate do not hit the 0 line.
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion we discuss the box plot and how the individuals with a 
+graduate degree, bachelor degree, and junior degree scored a better score than 
+those individuals in the LT high school and high school categories. People who 
+attend college had a mean of 9 or greater while the LT high school students had 
+a mean of 8 or less.We also found that the p value was a small value (0.000236)
+so we had to reject the hypothesis. We also used TukeyHSD to find that 95% of LT 
+high school graduates as well as high school categories did not make it over the
+0 line. To the conclusion both of the categories are not similar.
