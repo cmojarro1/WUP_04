@@ -39,9 +39,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 mydata<-read.csv(file="GSScsv.csv")
 ```
 
-```{r}
-plot(WORDSUM~DEGREE,data=mydata)
-```
+
 
 The middle box and the far right box can go underneath the box to the left 
 labeled "graduate". The mean from the two sets are different from one another.
@@ -53,6 +51,16 @@ than the boxes Bachelor and Graduate as well as junior college.
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+
+The ones with a junior college degree, bachelors degree, and a graduate school
+degree have a higher mean than of the high school and junior high school 
+categories. in the plot some individuals with a degree have a mean value of 9
+or even higher while the LT high school students and the high school students 
+have a mean of 8 or less.
 
 ## Inferential Results
 
